@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="create"
+        android:enabled="true"
+        android:icon="@mipmap/ic_create"
+        android:shortcutShortLabel="@string/create">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hex.connect"
+            android:targetClass="com.hex.connect.CreateEventRoomActivity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="join"
+        android:enabled="true"
+        android:icon="@mipmap/ic_join"
+        android:shortcutShortLabel="@string/join">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.hex.connect"
+            android:targetClass="com.hex.connect.CreateEventRoomActivity"/>
+
+    </shortcut>
+
+</shortcuts>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.EventChatFragment"
+    android:background="@color/colorWhite">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relLayout1"
+        android:id="@+id/recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/relLayout1"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_link"
+            android:layout_centerVertical="true"
+            android:tint="@color/colorBlueDark"
+            android:id="@+id/attach"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textMessage"
+            android:layout_toEndOf="@+id/attach"
+            android:layout_toStartOf="@+id/sendBtn"
+            android:background="@drawable/button_background_white_edge"
+            android:hint="Enter Message.."
+            android:inputType="textCapSentences|textMultiLine"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_margin="2dp"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_menu_send"
+            android:tint="@color/colorBlueDark"
+            android:id="@+id/sendBtn"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:progressTint="@color/colorBlueDark"
+        android:padding="4dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/colorWhite"
+        android:elevation="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/progressBar"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

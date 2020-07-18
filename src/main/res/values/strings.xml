@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Connect</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="contact_us">For Suggestions , Complaints , or Quarries email us at cbusinessxd@gmail.com.</string>
+
+    //social links
+    <string name="insta">Instagram</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="youtube">YouTube</string>
+    <string name="other">Other</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_personal_info">Edit your personal information here. These details will be visible to whoever visit your profile.</string>
+    <string name="edit_other_details">Edit the other informations here. These details will be visible to whoever visit your profile.</string>
+    <string name="social_links">Add or remove social links here. Your links will be visible only when your account is public.</string>
+    <string name="main_text">Create or join a virtual chat room and connect with your colleagues , event members , event head etc.</string>
+    <string name="qr_code_scan">Scan QR Code to join a chat Room. After scanning you will see the link below to join the chat room.</string>
+    <string name="create_room">Enter some details about the chat room or the event specific to this room</string>
+    <string name="event_date">Enter the date of the event for which this chat room is created. You can change the date later.</string>
+
+    <string name="create">Create room</string>
+    <string name="join">Join room</string>
+    <string name="openNavBar">Navigation Drawer Open</string>
+    <string name="navBarClose">Navigation Drawer Close</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+            <item android:title="Chats"
+                android:icon="@drawable/ic_home"
+                android:id="@+id/nav_chat"/>
+
+            <item android:title="Priority Messages"
+                android:icon="@drawable/ic_priority"
+                android:id="@+id/nav_p_messages"/>
+
+            <item android:title="Share Room ID"
+                android:icon="@drawable/ic_share"
+                android:id="@+id/nav_share"/>
+
+            <item android:title="View QR Code"
+                android:icon="@drawable/ic_scan"
+                android:id="@+id/nav_qr"/>
+
+            <item android:title="Room Info"
+                android:icon="@drawable/ic_info"
+                android:id="@+id/nav_info"/>
+    </group>
+</menu>
